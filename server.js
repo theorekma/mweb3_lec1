@@ -1,3 +1,7 @@
+require('babel-register')({
+    stage: 0
+});
+
 const express = require('express');
 
 const app = express();
